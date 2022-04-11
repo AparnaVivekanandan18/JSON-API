@@ -2,11 +2,21 @@
   "product1":
   {
     "productId":1,
-    "productName":"TeddyBear"
+    "productName":"Girls T-shirt",
+    "productQuantity": "10",
+    "productPrice": "$45",
+    "productDescription": ["Cotton","Suitable for summer","Designed with cute tiny floral print"],
+    "productColour": ["red","black","white","orange"],
+    "productSize": ["S","M","L","XL","XXL"]
   },
+
   "product2":
   {
     "productId":2,
-    "productName":"RoseFlower"
+    "productName":"JBL Wireless Earphones",
+    "productQuantity": "34",
+    "productPrice": "$60",
+    "productDescription": ["Deep Bass Sound","Noise cancellation","Rapid Charging"],
+    "productColour": ["red","black","white","blue"]
   }
 }

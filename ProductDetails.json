@@ -1,0 +1,12 @@
+{
+  "product1":
+  {
+    "productId":1,
+    "productName":"TeddyBear"
+  },
+  "product2":
+  {
+    "productId":2,
+    "productName":"RoseFlower"
+  }
+}

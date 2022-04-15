@@ -3,31 +3,30 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts":
-  {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "dev": "nodemon server"
   },
-  "repository":
-  {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/AparnaVivekanandan18/JSON-API.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs":
-  {
+  "bugs": {
     "url": "https://github.com/AparnaVivekanandan18/JSON-API/issues"
   },
   "homepage": "https://github.com/AparnaVivekanandan18/JSON-API#readme",
-  "dependencies":
-  {
-    "express": "^4.17.3"
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "unirest": "^0.6.0"
   },
-  "devDependencies":
-  {
+  "devDependencies": {
+    "axios": "^0.26.1",
     "cors": "^2.8.5",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
   }
 }

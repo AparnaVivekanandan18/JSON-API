@@ -43,24 +43,6 @@ application.get('/api/ping',function (req,res)
 )
 
 //*****************************************************************************************************************************************
-// http://localhost:9999/concurrentApiCalls/checking?tags=science,text
-application.get('/concurrentApiCalls/checking',async(req,res)=>
-{
-    const dummyResultOfAxios =  axios.get("https://api.hatchways.io/assessment/blog/posts?tag=tech")
-    const temp = dummyResultOfAxios.then((response)=>console.log(JSON.parse(JSON.stringify(response.data["posts"][0]))));
-    // console.log(temp)
-    res.send("success")
-
-    // let fetchTodo = async () => {
-    //     await axios.get('https://api.hatchways.io/assessment/blog/posts?tag=tech')
-    //         .then(res => console.log(res.data))
-    //         .catch(err => console.log(err))
-    // };
-    //
-    // fetchTodo()
-}
-);
-//*****************************************************************************************************************************************
 // http://localhost:9999/api/posts?tags=science,text
 // Default value for sortBy = id  && direction = asc
 
